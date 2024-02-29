@@ -58,10 +58,6 @@ INSERT INTO `food_inventory` (`food_id`, `name`, `expire_date`, `purchase_date`,
 (98, 'dfg', 45, '34', 234, 34),
 (134, 'trew', 5432, 'yttre', 654323, 76543),
 (1223, 'wrty', 2345, 'werty', 2345, 2345),
-(1234, 'asdf', 1234, 'qwer', 2345, 0),
-(2345, 'werty', 12345, 'qwerty', 12345, 0),
-(12345, 'ASDFG', 12345, 'ASDFG', 12345, 0),
-(123456, 'SDFGH', 123456, 'FDGFGHJ', 12345, 0);
 
 -- --------------------------------------------------------
 
@@ -116,9 +112,6 @@ CREATE TABLE `storage_location` (
 
 INSERT INTO `storage_location` (`location_id`, `name`, `temperature_range`, `capacity`) VALUES
 (1233, 'WERT', 1234567, 234567),
-(12345, 'asdf', 1234, 1234),
-(34567, 'wertyuy', 123456, 876543);
-
 -- --------------------------------------------------------
 
 --
@@ -140,8 +133,6 @@ CREATE TABLE `waste_events` (
 
 INSERT INTO `waste_events` (`measure_id`, `name`, `target_location`, `target_food_cartegory`, `implementation_date`, `responsible_person`) VALUES
 (123, 'GOD', 456, 'KHAN', 789, 'WEKO'),
-(12345, 'eretyguh', 123456, 'wsedrfgh', 654321, 'asdfg'),
-(123456, 'werty', 21345, 'sdfgh', 123456, 'etthuyytrr');
 
 -- --------------------------------------------------------
 
@@ -163,10 +154,6 @@ CREATE TABLE `waste_prevention_measures` (
 INSERT INTO `waste_prevention_measures` (`waste_events_id`, `date`, `quantity_wasted`, `reason`) VALUES
 (12, 'WER', 'ER', 'WE'),
 (123, 'QWERQWER', 'QWER', 'QWERF'),
-(234, 'QWERT', 'ASDFGH', 'ASDFGH'),
-(1234, 'qwer', 'werfg', 'wsedrf'),
-(12345, 'qwerty', 'qwerty', 'werty'),
-(123456, 'qasdfg', 'sdfgh', 'sdfg');
 
 --
 -- Indexes for dumped tables
